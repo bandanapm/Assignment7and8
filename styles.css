@@ -1,0 +1,40 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    margin: 10px;
+}
+
+#dice1,
+#dice2 {
+    width: 100px;
+    height: 100px;
+}
+
+#rollButton {
+    background-color: #686464;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 10px 25px;
+}
+
+#winnerMessage {
+    color: #FFD700;
+    font-size: 24px;
+    margin-top: 20px;
+}
